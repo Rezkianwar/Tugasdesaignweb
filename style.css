@@ -1,0 +1,55 @@
+body {
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #987eff, #7a63e5, #5c49cb, #3a30b2, #001799);
+  text-shadow: 1px 0px 1px;
+  box-shadow: 0px 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nav > li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.nav > li > a {
+  color: rgba(244, 241, 241, 0.674);
+  text-transform: capitalize;
+}
+
+.nav > li > a:hover {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+#background {
+  background: url(image/gambar\ 3.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  height: 92vh;
+  max-height: 1112px;
+}
+#background > .jumbotron {
+  background: none;
+  margin-left: 137px;
+  max-width: 1000px;
+  margin-top: 22px;
+}
+#background > .jumbotron > h1 {
+  margin-top: 10px;
+  font-family: nexa;
+  color: white;
+  margin-bottom: -12px;
+}
+#background > .jumbotron > p {
+  font-family: raleway;
+  color: white;
+  margin-bottom: -12px;
+  margin-top: 27px;
+  padding-right: 307px;
+}
+.btn {
+  background-color: #001799;
+}
